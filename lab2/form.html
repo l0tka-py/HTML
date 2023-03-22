@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" class="af" enctype="multipart/form-data">
+  <fieldset class="af__fieldset">
+    <legend class="af__legend">Персональные данные</legend>
+
+    <div class="af__group">
+      <label class="af__label">Фамилия</label>
+      <input class="af__input" type="text" name="surname" id="person_surname" required>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label" for="person_name">Имя</label>
+      <input class="af__input" type="text" name="name" id="person_name" required>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">Отчество</label>
+      <input class="af__input" type="text" name="patronymic" id="person_patronymic">
+    </div>
+
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <div class="af__group">
+      <label class="af__label" for="person_email">Почта</label>
+      <input class="af__input" type="email" name="name" id="person_email" required>
+    </div>
+    <div class="af__group">
+      <label class="af__label" for="person_password">Пароль</label>
+      <input class="af__input" type="password" name="name" id="person_password" required>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label" for="person_license">Водительские права</label>
+      <input class="af__input" id="person_license" type="file" name="person_license">
+    </div>
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <legend class="af__legend">Бронирование</legend>
+
+      <label class="af__label" for="car_model">Модель</label>
+      <select class="af__select" name="name" id="car_model" required>
+        <optgroup label="Audi">
+          <option value="" disabled selected> Выберите модель</option>
+          <option value="Q1">Q1</option>
+          <option value="Q2">Q2</option>
+          <option value="Q3">Q3</option>
+          <option value="Q4">Q4</option>
+          <option value="Q5">Q5</option>
+        </optgroup>
+        <optgroup label="Toyota">
+          <option value="" disabled selected> Выберите модель</option>
+          <option value="Mark">Mark</option>
+          <option value="Chaser">Chaser</option>
+          <option value="Cresta">Cresta</option>
+          <option value="MarkX">MarkX</option>
+        </optgroup>
+      </select>
+
+    <div class="af__group">
+      <label class="af__label" for="car_book_datetime">Дата бронирования</label>
+      <input id="car_book_datetime" type="datetime-local" name="car_book_datetime">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label" for="car_book_seats">Количество пассажиров</label>
+      <input class="af__input" id="car_book_seats" type="number" name="car_book_seats">
+    </div>
+
+
+
+    <div class="af__group">
+      <label class="af__label">Коробка передач</label>
+      <label class="af__label" for="car_gearbox1">
+      <input id="car_gearbox1" type="radio" name="car_gearbox" value="automatic">Автоматическая коробка</label>
+      <label class="af__label" for="car_gearbox2">
+      <input id="car_gearbox2" type="radio" name="car_gearbox" value="manual">Механическая коробка</label>
+    </div>
+
+
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <div class="af__group">
+      <label class="af__label" for="car_comments">Комментарий по автомобилю</label>
+      <textarea class="car_comments" id="car_comments" required></textarea>
+    </div>
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <div class="af__group">
+      <label class="af__label" for="person_agree">Согласие с обработкой личных данных
+      <input type="checkbox" id="person_agree" required></label>
+    </div>
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <input class="af__reset" type="reset" name="" >
+    <input class="af__submit" type="submit" value="регистрация">
+  </fieldset>
+</form>
+</body>
+</html>

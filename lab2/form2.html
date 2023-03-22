@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyForm</title>
+</head>
+<body>
+  <form method="post" class="af" enctype="multipart/form-data">
+  <fieldset class="af__fieldset">
+    <legend class="af__legend">Основная информация</legend>
+
+    <div class="af__group">
+      <label class="af__label">type='text'</label>
+      <input class="af__input" type="text">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='submit'</label>
+      <input class="af__input" type="submit">
+    </div>
+
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <legend class="af__legend">Дополнительная информация</legend>
+
+    <div class="af__group">
+      <label class="af__label">type='password'</label>
+      <input class="af__input" type="password" required>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='textarea'</label>
+      <textarea></textarea>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='radio'</label>
+      <input class="af__input" type="radio" >
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='checkbox'</label>
+      <input class="af__input" type="checkbox">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='reset'</label>
+      <input class="af__input" type="reset">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='select'</label>
+      <select>
+        <optgroup label="Audi">
+          <option value="" disabled selected> Выберите модель</option>
+          <option value="Q1">Q1</option>
+          <option value="Q2">Q2</option>
+          <option value="Q3">Q3</option>
+          <option value="Q4">Q4</option>
+          <option value="Q5">Q5</option>
+        </optgroup>
+        <optgroup label="Toyota">
+          <option value="" disabled selected> Выберите модель</option>
+          <option value="Mark">Mark</option>
+          <option value="Chaser">Chaser</option>
+          <option value="Cresta">Cresta</option>
+          <option value="MarkX">MarkX</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="af__group">
+      <label class="af__label">type='file'</label>
+      <input class="af__input" type="file">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label"> type='hidden' </label>
+      <input class="af__input" type="hidden">
+    </div>
+
+  </fieldset>
+
+  <fieldset class="af__fieldset">
+    <legend class="af__legend"> Примеры полей HTML-5 </legend>
+
+    <div class="af__group">
+      <label class="af__label"> type='range' </label>
+      <input class="af__input" type="range">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label"> type='color' </label>
+      <input class="af__input" type="color">
+    </div>
+
+    <div class="af__group">
+      <label class="af__label"> type='date' </label>
+      <input class="af__input" type="date">
+    </div>
+
+  </fieldset>
+  </form>
+</body>
+</html>
