@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.i_h1{
+    text-align: center;
+}
+
+.i_h2{
+    margin-left: 2rem;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid maroon; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px;
+}
+
+.i_h3{
+    margin-left: 10px;
+    font-weight: normal;
+    margin-left: 2rem;
+}
+
+.lists{
+    margin-left: 2rem;
+    list-style-image: url("../img/tick.png");
+}
+
+.i_text{
+    text-indent: 1rem;
+    margin-left: 2rem;
+}
+
+.i_img{
+    text-align: center;
+}
