@@ -1,0 +1,41 @@
+*{
+    font-family: Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+table{
+    margin: auto;
+    border: 2px solid CornflowerBlue;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-collapse: revert;
+    table-layout: auto;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fd;
+    font-color: #415268;
+    color: #415268;
+}
+
+.name {
+text-align: left;
+}
+
+.position {
+ color: #4a519e;
+}
+
+.full{
+   background-color: #d4fbff;
+   border-radius: 5px;
+   color: #0073ee;
+}
+
+.part{
+    background-color: #fff6ab;
+    border-radius: 5px;
+    color: #ee8200;
+}
