@@ -1,0 +1,22 @@
+.gallery{
+    list-style: none;
+    margin: 2rem 1rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+.gallery__item{
+    background: #fff;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 1rem;
+}
+
+.gallery__img{
+    width: 100%;
+    display: block;
+    margin: 1rem;
+    padding: .05rem .05rem 3rem .05rem ;
+    background: #f1f1f1;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+}

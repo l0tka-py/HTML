@@ -1,0 +1,62 @@
+@import "all";
+@import "all.min.css";
+
+@font-face {
+    font-family: 'bankir';
+    src: url('../webfonts/bankir-retro.eot');
+    src: url('../webfonts/bankir-retro.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/bankir-retro.woff2') format('woff2'),
+         url('../webfonts/bankir-retro.woff') format('woff'),
+         url('../webfonts/bankir-retro.ttf') format('truetype'),
+         url('../webfonts/bankir-retro.svg#bankir-retroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, a{
+    font-family: "bankir", Helvetica, Arial, sans-sans;
+}
+
+.social{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  background-color: #D0DAEE;
+}
+
+.social__item{
+    display: inline-block;
+    font-size: 1rem;
+    width: 2em;
+    height: 2em;
+    line-height: 2rem;
+    text-align: center;
+    background: #09c;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    transition: all .3s ease-in-out .3s;
+}
+
+.social__item:hover {
+    transform: translateY(-3px);
+    transition: all .3s ease-in-out .3s;
+    background: #3cb8dd;
+}
+
+.social-text-left {
+  font-size:25px;
+  padding-left:40px;
+  float:left;
+  word-spacing:20px;
+
+}
+
+a.menu:hover {
+  background-color:yellow;
+  font-size:20px;
+}

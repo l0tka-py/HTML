@@ -1,0 +1,152 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap';
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial;
+    background: #edeff2;
+    margin: 0;
+}
+
+.film-item{
+    display: inline-block;
+    margin: 2rem;
+}
+
+
+.mx-4{}
+
+.my-4{
+
+}
+
+
+
+.film__poster {
+    background:  linear-gradient(180deg, rgba(64, 116, 185, 0.5), rgba(64, 116, 185, 0.5), rgba(0, 153, 204,.9)) center no-repeat, url('../images/alien_full.jpg') center no-repeat;
+    background-size: cover;
+    width: 430px;
+    height:  500px;
+    border-radius: 20px;
+    transform: translate(0px, 5px);
+    box-shadow: 0 0.5rem 1.25rem rgba(64, 116, 185, 0.3);
+    letter-spacing: 0.025rem;
+}
+
+.film__poster:hover {
+    box-shadow: 0 0.5rem 1.25rem rgba(64, 116, 185, 0.9);
+    transform: translate(0px, 20px);
+}
+
+.move-bg {
+
+}
+.film__delete {
+    position: absolute;
+    top: 5rem;
+    left: -1.25rem;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: .9;
+}
+
+.film__delete:hover {
+    opacity: 1;
+}
+
+.delete__line {
+    content: '';
+	position: absolute;
+	top: 10px;
+	display: block;
+	width: 20px;
+	height: 3px;
+	background: #4074b9;
+}
+
+.delete__line.left {
+
+   transform: translate(75%, 400%) rotate(45deg);
+
+}
+.delete__line.right {
+   transform: translate(75%, 400%) rotate(-45deg);
+}
+
+.film__format {
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
+    background: #fff;
+    color: #4074b9;
+    text-transform: uppercase;
+    top: 50px;
+    right: 50px;
+    font-size: 0.9rem;
+    opacity: .9;
+}
+.film__info {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.film__director {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.film__title,
+.film__subtitle {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.film__upload {
+    position: absolute;
+    bot: 50px;
+    right: 50px;
+}
+.film_nav.clearfix {
+
+}
+
+
+.clearfix:after {
+
+}
+
+.dots{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.film__duration {
+
+    float: right;
+    display:inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.left {}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b4bec7;
+    margin: 5px;
+}
+.dot--active {
+    background: #4074b9;
+}
+
+.right {}

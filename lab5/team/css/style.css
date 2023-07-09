@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.team-section{
+    padding: 3rem 0;
+    background: #f6f9fc;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #32325d;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.person__item{
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 2px 3px rgba(0,0,0, .1), 0  5px 10px rgba(0,0,0, .1);
+    text-align: center;
+}
+.person__img{
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.person__name{
+    font-size: 1.25rem;
+    color: #32325d;
+    margin: .5rem 0;
+}
+
+.person__position{
+    color: #425466;
+    margin: .5rem 0;
+}
+
+.col{
+    padding: 1rem;
+    float: left;
+}
+
+@media (max-width: 1199.98px) {
+    .col{
+        width: 25%;
+    }
+}
+@media (max-width: 991.98px) {
+    .col{
+        width: 33.3333%;
+    }
+}
+@media (max-width: 767.98px) {
+    .col{
+        width: 50%;
+    }
+}
+@media (max-width: 575.98px) {
+    .col{
+        width: 100%;
+    }
+}

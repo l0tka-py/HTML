@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.main-heading {
+
+}
+
+ul{
+ list-style-type: disc;
+}
+
+li{
+text-alignL -webkit-match-parent;
+}
+
+.books {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.book__item{
+    display: inline-block;
+    width: 150px;
+    margin: 2rem;
+    padding: 0;
+    position: relative;
+}
+.book__cover{
+    display: block;
+    width: 100%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 10%);
+}
+.book__title{
+
+}
+.book__author{
+    color: #808080;
+}
+.book__price{
+    font-size: 1.25rem;
+    color: #32325d;
+}
+
+.new::after {
+    display: inline-block;
+    position: absolute;
+    content: "Новинка";
+    font-size: .75rem;
+    background: #09c;
+    border-radius: .25rem;
+    right: 21px;
+    top: 22px;
+    padding: .125rem 1rem;
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+.book__price::after {
+    font-size: 1rem;
+    content: " руб.";
+}
